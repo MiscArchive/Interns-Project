@@ -105,7 +105,7 @@ section {
   content: "";
   width: 50px;
   height: 2px;
-  background: #FDB312;
+  background: #116265;
   display: inline-block;
 }
 
@@ -178,8 +178,8 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
-  margin-right: 6px;
+  max-height: 60px;
+  margin-right: 10px;
 }
 @media (max-width: 767px) {
   .header .logo img {
@@ -338,7 +338,7 @@ section {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: #FDB312;
+    color: #116265;
   }
 
   .navmenu .dropdown ul {
@@ -637,7 +637,7 @@ section {
 .spinner {
   width: 50px;
   height: 50px;
-  border: 8px solid #febd0e; /* Change to desired spinner color */
+  border: 8px solid #168388; /* Change to desired spinner color */
   border-top-color: transparent;
   border-radius: 50%;
   animation: spin 1s linear infinite;
@@ -928,7 +928,7 @@ section {
   line-height: 19px;
   padding: 10px 20px;
   background: rgba(var(--primary-color-rgb), 0.05);
-  color:#febd0e;
+  color:#168388;
   border-radius: 7px;
   display: inline-block;
 }
@@ -992,7 +992,7 @@ section {
   line-height: 0;
   transition: all 0.4s ease-out 0s;
   background-color: rgba(var(--primary-color-rgb), 0.05);
-  color: #febd0e;
+  color: #168388;
 }
 
 .about .icon-box h3 {
@@ -1006,7 +1006,7 @@ section {
 }
 
 .about .icon-box:hover i {
-  background-color: #febd0e;
+  background-color: #168388;
   color: var(--contrast-color);
 }
 
@@ -1368,7 +1368,7 @@ section {
   position: relative;
   border-radius: 15px;
   
-  border: 3px solid #FDB312;
+  border: 3px solid #116265;
 }
 
 .pricing h3 {
@@ -1382,7 +1382,7 @@ section {
   margin: 30px auto 20px auto;
   width: 70px;
   height: 70px;
-  background: #FDB312;
+  background: #116265;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1404,7 +1404,7 @@ section {
   height: 86px;
   width: 86px;
   border-radius: 50%;
-  background: rgba(var(--primary-color-rgb), 0.2);
+  background: #a9bbbb;
   transition: all 0.3s ease-out 0s;
   transform: translateZ(-1px);
 }
@@ -1415,14 +1415,14 @@ section {
   height: 102px;
   width: 102px;
   border-radius: 50%;
-  background: rgba(var(--primary-color-rgb), 0.1);
+  background: #dfe5e5;
   transition: all 0.3s ease-out 0s;
   transform: translateZ(-2px);
 }
 
 .pricing h4 {
   font-size: 39px;
-  color: #FDB312;
+  color: #116265;
   font-weight: 700;
   font-family: var(--heading-font);
   margin-bottom: 25px;
@@ -1743,8 +1743,8 @@ section {
 }
 
 .call-to-action .cta-btn:hover {
-  background: #FDB312;;
-  border: 2px solid #febd0e;
+  background: #116265;;
+  border: 2px solid #168388;
 }
 
 /* Testimonials Section - Home Page
@@ -1806,7 +1806,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color:#FDB312;
+  color:#116265;
   font-size: 26px;
   line-height: 0;
 }
@@ -1849,7 +1849,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color:#FDB312;
+  background-color:#116265;
 }
 
 @media (max-width: 767px) {
@@ -1929,7 +1929,7 @@ section {
 .contact .info-item i {
   font-size: 38px;
   line-height: 0;
-  color:#febd0e;
+  color:#168388;
 }
 
 .contact .info-item h3 {
@@ -2979,7 +2979,7 @@ section {
 
 .web-link:hover {
   text-decoration: none;
-  color:#FDB312;
+  color:#16b8c1;
 }
 
 .portfolio-heading {
@@ -3057,7 +3057,7 @@ section {
 
 /* Optional: Style the read-more button on hover */
 .pricing-item:hover .read-more-btn {
-  background-color: #ffcc00; /* Change background color on hover */
+  background-color: #168388; /* Change background color on hover */
   color: #fff; /* Change text color on hover */
 }
 
@@ -3139,7 +3139,7 @@ section {
 /* Style inputs */
 input[type=text],input[type=email], 
 input[type=tel],  select, textarea {
-  border: 1px solid #3d3d3d;
+  border: 1px solid #58efe0;
   width: 100%;
   font-family: "Lato", sans-serif;
   font-size: 16px;
@@ -3153,16 +3153,16 @@ input[type=tel],  select, textarea {
 }
 
 input[type=submit] {
-  background-color: #FDB312;
+  background-color: #116265;
   color: white;
   padding: 12px 20px;
-  border: none;
+  border: 1px solid #58efe0;
   cursor: pointer;
   border-radius: 40px;
 }
 
 input[type=submit]:hover {
-  background-color: #febd0e;
+  background-color: #168388;
 }
 
 /* Style the container/contact section */
@@ -3201,7 +3201,7 @@ input[type=submit]:hover {
 
 
 .btn-whatsapp-pulse {
-	background: #FDB312;
+	background: #168388;
 	color: white;
 	position: fixed;
 	bottom: 20px;
@@ -3241,7 +3241,7 @@ input[type=submit]:hover {
 	position: absolute;
 	border-radius: 50%;
 	padding: 25px;
-	border: 5px solid #FDB312;
+	border: 5px solid #168388;
 	opacity: 0.75;
 	animation-name: pulse-border;
 	animation-duration: 1.5s;
@@ -3403,7 +3403,7 @@ h1{
   left: 50%;
   transform: translate(-50%, -50%);
   border: 4px solid #f3f3f3; /* Light grey border */
-  border-top: 4px solid #FDB312; /* Blue border on top */
+  border-top: 4px solid #116265; /* Blue border on top */
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -3422,7 +3422,7 @@ h1{
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  border: 2px solid #FDB312;
+  border: 2px solid #116265;
   transition: all 200ms ease-out;
   position: fixed;
   pointer-events: none;
@@ -3436,7 +3436,7 @@ h1{
   width: 20px;
   height: 20px;
   border-radius: 100%;
-  background-color: #FDB312;
+  background-color: #116265;
   opacity: .3;
   position: fixed;
   transform: translate(-50%, -50%);
@@ -3469,7 +3469,7 @@ h1{
   top: 0;
   right: 0;
   bottom: 0;
-  background: rgba(255, 186, 0, 0.3);
+  background: #033b4482;
   z-index: 999;
   opacity: 0; /* Start with transparent */
     transition: opacity 0.5s ease; /* Smooth transition */
@@ -3478,7 +3478,7 @@ h1{
 /* Основные стили для всплывающего окна */
 .popWindow {
   display: none;
-  background-color: #161613;
+  background-color: #0a2f39cf;
   color: #fff;
   width: 90%;
   max-width: 720px;
@@ -3493,6 +3493,8 @@ h1{
   border-radius: 50px;
   opacity: 0; /* Start with transparent */
   transition: opacity 0.5s ease; /* Smooth transition */
+  border: 1px solid #ffffff ;
+  
 }
 
 /* Стили для адаптивности всплывающего окна */
@@ -3505,9 +3507,21 @@ h1{
   font-size: 40px;
   line-height: 20px;
   cursor: pointer;
-  color: #999;
+  color: #ffffff;
   padding: 10px;
+  transition: .3s ease;
+  border-radius: 50%;
+
 }
+
+.close-btn:hover {
+  background-color: #168388;
+  color: #000000;
+  border: #16b8c1;
+}
+
+
+
 /* Просто текст */
 .subscribe_window .subcsribe-text {
   font-size: 18px;
@@ -3660,150 +3674,41 @@ h1{
 }
 
 
-/* Thank you Page */
-
-
-.bg-image {
+/* From Uiverse.io by jeremyssocial */ 
+.c1 {
+  /* Basic dimensions and centering */
   
-  background-size: cover; 
-  background-position: center; 
-  width: 100%; 
-  height: 100vh; 
-  margin: 0; 
-  padding: 0; 
-  box-sizing: border-box; 
-  display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
+
+  /* Dark mode colors and gradient */
+  background: #121212; /* Fallback for browsers that don't support gradients */
+  background: linear-gradient(
+    135deg,
+    #121212 25%,
+    #1a1a1a 25%,
+    #1a1a1a 50%,
+    #121212 50%,
+    #121212 75%,
+    #1a1a1a 75%,
+    #1a1a1a
+  );
+  background-size: 40px 40px;
+
+  /* Animation */
+  animation: move 4s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 40px 40px;
+  }
 }
 
 
 
-.text-container:hover{
-  transform: translateY(-15px);
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}
-.text-container h2{
-  text-align: center;
-  font-size: 5em;
-  font-family: 'lobster family',lobster;
-  font-style: italic;
-
- 
-}
-.text-container p{
-  text-align: center;
-  color:rgb(148, 143, 143) ;
-  font-size: larger;
-  
-}
-.text-container .gohome{
-  color: white;
-  background: #FDB312;
-  border: none;
-  padding: 10px 50px;
-  margin: 30px 0;
-  display: grid;
-  margin: auto;
-  border-radius: 30px;
-  text-transform: capitalize;
-  margin-bottom: 20px;
-  
-  
-  cursor: pointer;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  text-decoration: none ;
-  outline: none;
-} 
-.text-container a {
-  text-decoration: none;
-}
-.text-container a.no-underline {
-  text-decoration: none;  
-}
 
 
-.text-container {
-  position: relative;
- 
-  width: 100%; 
-  
-  border-color: #32353a;
-  border-radius: 25px;
-  color: white;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-               rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  transition: transform 0.3s ease;
-}
-#typing-header span {
-   
-  color: #FDB312; /* Ensure color matches your style */
-}
-
-
-
-body {
-  background-color:white;
-}
-svg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-
-  height: 100%;
-}
-
-
-.links {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  font-size: 18px;
-  font-family: sans-serif;
-}
-a {
-  text-decoration: none;
-  color: black;
-  margin-left: 1em;
-}
-a:hover {
-  text-decoration: underline;
-}
-a img.icon {
-  display: inline-block;
-  height: 1em;
-  margin: 0 0 -0.1em 0.3em;
-}
-
-a{
-  color: black;
-}
-
-
-
-                  @keyframes rotate {
-                           0% {
-                          transform: rotate(0deg);
-                      }
-                      100% {
-                          transform: rotate(360deg);
-                      }
-                  }
-                  .out-top {
-                      animation: rotate 20s linear infinite;
-                      transform-origin: 13px 25px;
-                  }
-                  .in-top {
-                      animation: rotate 10s linear infinite;
-                      transform-origin: 13px 25px;
-                  }
-                  .out-bottom {
-                      animation: rotate 25s linear infinite;
-                      transform-origin: 84px 93px;
-                  }
-                  .in-bottom {
-                      animation: rotate 15s linear infinite;
-                      transform-origin: 84px 93px;
-                  }
-              
