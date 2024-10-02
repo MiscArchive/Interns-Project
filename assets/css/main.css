@@ -59,7 +59,7 @@ p{
 
 }
 a {
-  color:#FDB312;
+  color:#116265;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -719,8 +719,8 @@ section {
 }
 
 .footer .social-links a:hover {
-  color: #febd0e;
-  border-color:#FDB312;
+  color: #168388;
+  border-color:#116265;
 }
 
 .footer h4 {
@@ -764,7 +764,7 @@ section {
 }
 
 .footer .footer-links ul a:hover {
-  color:#FDB312;
+  color:#168388;
 }
 
 .footer .footer-contact p {
