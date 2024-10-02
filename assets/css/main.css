@@ -3152,18 +3152,23 @@ input[type=tel],  select, textarea {
   border-radius: 4px;
 }
 
-input[type=submit] {
+.c1 {
   background-color: #116265;
-  color: white;
-  padding: 12px 20px;
-  border: 1px solid #58efe0;
+  color: #fff;
+  border: none;
   cursor: pointer;
-  border-radius: 40px;
+  border-radius: 8px;
+  width: 100px;
+  height: 45px;
+  transition: 0.3s;
 }
 
-input[type=submit]:hover {
+.c1:hover {
   background-color: #168388;
+  color: #000;
+  font-weight: 600;
 }
+
 
 /* Style the container/contact section */
 
@@ -3478,7 +3483,7 @@ h1{
 /* Основные стили для всплывающего окна */
 .popWindow {
   display: none;
-  background-color: #0a2f39cf;
+  background-color: #0a2239eb;
   color: #fff;
   width: 90%;
   max-width: 720px;
@@ -3515,8 +3520,8 @@ h1{
 }
 
 .close-btn:hover {
-  background-color: #168388;
-  color: #000000;
+  background-color: #fff;
+  color: #168388;
   border: #16b8c1;
 }
 
@@ -3674,39 +3679,6 @@ h1{
 }
 
 
-/* From Uiverse.io by jeremyssocial */ 
-.c1 {
-  /* Basic dimensions and centering */
-  
-  justify-content: center;
-  align-items: center;
-
-  /* Dark mode colors and gradient */
-  background: #121212; /* Fallback for browsers that don't support gradients */
-  background: linear-gradient(
-    135deg,
-    #121212 25%,
-    #1a1a1a 25%,
-    #1a1a1a 50%,
-    #121212 50%,
-    #121212 75%,
-    #1a1a1a 75%,
-    #1a1a1a
-  );
-  background-size: 40px 40px;
-
-  /* Animation */
-  animation: move 4s linear infinite;
-}
-
-@keyframes move {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 40px 40px;
-  }
-}
 
 
 
