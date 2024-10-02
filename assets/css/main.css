@@ -282,17 +282,11 @@ section {
   --nav-hover-color: #d83535;
 }
 
-.index-page.scrolled .Top-logo{
-  -webkit-filter: brightness(1) invert(1);
-  filter: brightness(1) invert(1);
-}
+
 .Top-logo{
   transition: 0.5s ease;
 }
-.Top-logo-gallery{
-  -webkit-filter: brightness(1) invert(1);
-  filter: brightness(1) invert(1);
-}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
