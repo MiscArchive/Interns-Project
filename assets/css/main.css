@@ -338,7 +338,7 @@ section {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: #FDB312;
+    color: #116265;
   }
 
   .navmenu .dropdown ul {
